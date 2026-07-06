@@ -1,4 +1,4 @@
-FROM nvcr.io/nvidia/nvhpc:26.3-devel-cuda13.1-ubuntu22.04
+FROM nvcr.io/nvidia/nvhpc:26.5-devel-cuda_multi-ubuntu22.04
 #moving to ubuntu 24.xx requires a different way of installing python packages...
 #To install Python packages system-wide, try apt install
 #python3-xyz, where xyz is the package you are trying to
