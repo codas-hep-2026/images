@@ -1,4 +1,4 @@
-FROM mambaorg/micromamba:2.5.0
+FROM mambaorg/micromamba:2.8.1
 
 ENV SHELL /bin/bash
 ARG NEW_MAMBA_USER=jovyan
@@ -36,7 +36,7 @@ COPY binder/environment.yml .
 RUN \
     CONDA_OVERRIDE_CUDA="13.2" micromamba env update --name base -f environment.yml && \
     CONDA_OVERRIDE_CUDA="13.2" micromamba install -y  -c conda-forge \       
-    jupyterlab openssh notebook vim nano emacs curl wget  && \      
+    jupyterlab jupyterhub openssh notebook vim nano emacs curl wget  && \      
     micromamba clean --all --yes
 
 RUN micromamba list
