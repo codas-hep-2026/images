@@ -1,0 +1,32 @@
+[workspace]
+name = "columnar-analysis-tutorial"
+version = "0.1.0"
+authors = ["ianna <ianna.osborne@cern.ch>"]
+channels = ["conda-forge"]
+platforms = ["osx-arm64", "linux-64"]
+
+[tasks]
+start = "marimo edit"
+
+[dependencies]
+python = "==3.13.5"
+marimo = "*"
+awkward = "==2.9.0"
+uproot = ">=5.6.8,<6"
+vector = ">=1.7.0,<2"
+hist = ">=2.9.0,<3"
+scikit-hep-testdata = ">=0.6.5"
+numpy = "==2.2.6"
+pandas = "==2.3.0"
+pyarrow = "==20.0.0"
+jax = "==0.7.2"
+jaxlib = "==0.7.2"
+numba = "==0.61.2"
+dask = "==2025.5.1"
+distributed = "==2025.5.1"
+numexpr = "==2.10.2"
+matplotlib = "==3.10.3"
+graphviz = ">=13.1.2,<14"
+python-graphviz = ">=0.21,<0.22"
+aiohttp = "==3.12.13"
+fsspec = "==2025.5.1"
