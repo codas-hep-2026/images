@@ -30,7 +30,7 @@ RUN adduser --disabled-password \
 
 
 RUN ln=`grep -n "exec " /usr/local/bin/entrypoint.sh | tail -1 | cut -f1 -d:`; \
-    sed -i "${ln}igit clone --recurse-submodules https://github.com/iris-hep/codas-hep-2026" /usr/local/bin/entrypoint.sh
+    sed -i "${ln}igit clone --recurse-submodules https://github.com/codas-hep-2026/images" /usr/local/bin/entrypoint.sh
 
 ## remove the news
 COPY binder/overrides.json /tmp
