@@ -1,3 +1,6 @@
 [submodule "CoDaS_HEP"]
 	path = CoDaS_HEP
 	url = ../../tgmattso/CoDaS_HEP.git
+[submodule "ScientificPython"]
+	path = ScientificPython
+	url = ../../ianna/codas-hep-2026.git
