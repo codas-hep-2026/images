@@ -1,5 +1,5 @@
 [submodule "CoDaS_HEP"]
-	path = ParallelProgramming
+	path = CoDaS_HEP
 	url = ../../tgmattso/CoDaS_HEP.git
 [submodule "ScientificPython"]
 	path = ScientificPython
