@@ -40,5 +40,6 @@ dependencies:
   - cuda-nvrtc
   - cuda-version
   - cupy
+  - root>=6.40
   - pip:
       - cuda-cccl[cu13]
