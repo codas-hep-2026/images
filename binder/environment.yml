@@ -2,13 +2,15 @@ name: columnar-analysis-tutorial
 channels:
   - conda-forge
 dependencies:
-  - python==3.13.5
+  - python
+  #==3.13.5
   - aiohttp==3.12.13
   - awkward==2.10.0
   - dask==2025.5.1
   - distributed==2025.5.1
   - fsspec==2025.5.1
-  - graphviz>=13.1.2,<14
+  - graphviz>=13.1.2
+  #,<14
   - hist>=2.9.0,<3
   - jax==0.7.2
   - jaxlib==0.7.2
@@ -26,19 +28,22 @@ dependencies:
   - uproot>=5.7.5,<6
   - vector>=1.7.0,<2
   - pip
-  - xrootd==5.8.1
+  - xrootd
+  #==5.8.1
   - zstandard==0.23.0
   - lz4==4.4.4
   - python-xxhash==3.5.0
   - awkward-cpp==54
   - particle==0.25.4
   - awkward-pandas==2023.8.0
-  - fsspec-xrootd==0.5.1
+  - fsspec-xrootd
+  #==0.5.1
   - aiohttp==3.12.13
   - fastjet==3.5.0.1
   - zipp !=3.23.0
   - cuda-nvrtc
   - cuda-version
   - cupy
+  - root>=6.40
   - pip:
       - cuda-cccl[cu13]
