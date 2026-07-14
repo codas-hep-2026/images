@@ -2,7 +2,8 @@ name: columnar-analysis-tutorial
 channels:
   - conda-forge
 dependencies:
-  - python#==3.13.5
+  - python
+  #==3.13.5
   - aiohttp==3.12.13
   - awkward==2.10.0
   - dask==2025.5.1
