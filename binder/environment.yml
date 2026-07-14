@@ -8,7 +8,8 @@ dependencies:
   - dask==2025.5.1
   - distributed==2025.5.1
   - fsspec==2025.5.1
-  - graphviz>=13.1.2,<14
+  - graphviz>=13.1.2
+  #,<14
   - hist>=2.9.0,<3
   - jax==0.7.2
   - jaxlib==0.7.2
