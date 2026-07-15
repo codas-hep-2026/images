@@ -7,3 +7,6 @@
 [submodule "root-demo-notebooks"]
 	path = root-demo-notebooks
 	url = ../../guitargeek/root-demo-notebooks.git
+[submodule "GPUProgramming"]
+	path = GPUProgramming
+	url = ../../brij01/CoDaS-HEP-GPU-2026.git
