@@ -45,7 +45,7 @@ dependencies:
   - cuda-version
   - cupy
   - root>=6.40
-  - cxxcompiler
+  - cxx-compiler
   - binutils
   - make
   - coreutils
