@@ -4,3 +4,6 @@
 [submodule "ScientificPython"]
 	path = ScientificPython
 	url = ../../ianna/codas-hep-2026.git
+[submodule "root-demo-notebooks"]
+	path = root-demo-notebooks
+	url = ../../guitargeek/root-demo-notebooks.git
