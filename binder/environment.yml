@@ -45,5 +45,11 @@ dependencies:
   - cuda-version
   - cupy
   - root>=6.40
+  - cxxcompiler
+  - binutils
+  - make
+  - coreutils
+  - openpmd-viewer
+  - gprof2dot
   - pip:
       - cuda-cccl[cu13]
